@@ -1,0 +1,45 @@
+{
+    "name": "Talonflame",
+    "image": "https://unite.pokemon.com/images/pokemon/talonflame/roster/roster-talonflame.png",
+    "difficulty": "Novice",
+    "role": "Speedster",
+    "evoChecked": true,
+    "evoLine": [
+      { "name": "Fletchling", "level": 1, "image": "https://unite.pokemon.com/images/pokemon/talonflame/stat/evolution-1-fletchling.png" },
+      { "name": "Fletchinder", "level": 5, "image": "https://unite.pokemon.com/images/pokemon/talonflame/stat/evolution-2-fletchinder.png" },
+      { "name": "Talonflame", "level": 7, "image": "https://unite.pokemon.com/images/pokemon/talonflame/stat/evolution-3-talonflame.png" }
+    ],
+    "attackRange": "Melee",
+    "passiveSkill": "Gale Wings",
+    "specialText": "When the Pokemon is at high HP, its movement speed is increased.",
+    "stats": {
+      "viability": {
+        "offense": 5,
+        "endurance": 3,
+        "mobility": 10,
+        "scoring": 7,
+        "support": 1
+      }
+    },
+    "basicAttack": "Becomes a boosted attack every third attack, causing damage to any opponent in range. Even if you leave the area after two normal attack, the next attack is still boosted",
+    "skills": [
+      { "name": "Peck", "upgradesAt": 5, "category": "Melee", "cooldown": 5000, "effect": "Has the user fly toward an opposing Pokemon and attack three times.", "upgrades": "-" },
+      { "name": "Flame Charge", "upgradesAt": 11, "category": "Dash", "cooldown": 6500, "effect": "Flies in the designated direction cloaked in flame, attacking opposing Pokemon in the user's path. This also increases the user's movement speed.", "upgrades": "Also decreases the movement speed of opposing Pokemon for a short time when this move lands successfully." },
+      { "name": "Aerial Ace", "upgradesAt": 11, "category": "Dash", "cooldown": 6000, "effect": "Charges quickly towards a targeted Pokemon and increases the power of the next basic move.", "upgrades": "Increased damage dealt." },
+      { "name": "Acrobatics", "upgradesAt": 7, "category": "Dash", "cooldown": 8000, "effect": "Has the user fly toward the designated area and attack multiple times. Allows the user to escape in a direction of their choice after using this move.", "upgrades": "-" },
+      { "name": "Fly", "upgradesAt": 13, "category": "Dash", "cooldown": 11000, "effect": "Flies up into the sky. Using this move again will cause the user to dive to the designated area and attack.", "upgrades": "Throws opposing Pokemon that area in its area of effect when this move lands successfully." },
+      { "name": "Brave Bird", "upgradesAt": 13, "category": "Dash", "cooldown": 10000, "effect": "Embodies itself in flames and suddenly flies to the targeted area, doing AOE damage. After hitting the target area, suffers recoil and reduces the cooldown of basic moves for a certain time.", "upgrades": "Reduced recoil damage." },
+      { "name": "Flame Sweep", "upgradesAt": 99, "category": "Dash", "cooldown": 1000, "effect": "Talonflame's Unite Move. Has the user perform an aerial somersault before charging forawrd, dealing damage to opposing Pokemon in this move's path and shoving (knockback) them.", "upgrades": "-" }
+    ],
+    "changeLogs": [
+      { "version": "1.0", "changes": "Made Talonflame character sheet" },
+      { "version": "1.1", "changes": "Added Passive Skill name and effect. Updated Moves section." },
+      { "version": "1.2", "changes": "Added hyperlinks to each moves to for players to get a preview of the move's animation." },
+      { "version": "1.3", "changes": "Added Mugshot and Model. Added Viability Stats. Updated Character Sheet arrangement." },
+      { "version": "1.4", "changes": "Updated Role Name to reflect changes from 2021 Mar Canada Regional Beta Test." },
+      { "version": "1.5", "changes": "Updated Difficulty Name, Move Names, Category, Evolution Level, and Move Descriptions, updated Ability description, and added Basic Attack to reflect changes from 2021 Mar Canada Regional Beta Test." },
+      { "version": "1.6", "changes": "Updated Usage Difficulty  to reflect changes from the official website." },
+      { "version": "1.7", "changes": "Updated Basic Attack Description to reflect changes from the Japanese Network Test." }
+    ]
+  }
+  

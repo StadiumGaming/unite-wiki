@@ -1,0 +1,40 @@
+{
+    "name": "Wigglytuff",
+    "image": "https://unite.pokemon.com/images/pokemon/wigglytuff/roster/roster-wigglytuff.png",
+    "difficulty": "Intermediate",
+    "role": "Supporter",
+    "evoChecked": true,
+    "evoLine": [
+      { "name": "Jigglypuff", "level": 1, "image": "https://unite.pokemon.com/images/pokemon/wigglytuff/stat/evolution-1-jigglypuff.png" },
+      { "name": "Wigglytuff", "level": 4, "image": "https://unite.pokemon.com/images/pokemon/wigglytuff/stat/evolution-2-wigglytuff.png" }
+    ],
+    "attackRange": "Ranged",
+    "passiveSkill": "Cute Charm",
+    "specialText": "When a Pokemon is within close range of this Pokemon, it becomes Attracted. When it does, it automatically moves closer to you. Ability cools down before attracting another one.",
+    "stats": {
+      "viability": {
+        "offense": 2,
+        "endurance": 5,
+        "mobility": 5,
+        "scoring": 4,
+        "support": 9
+      }
+    },
+    "basicAttack": "Becomes a boosted attack with every third attack. Reduces movement speed of the opponent on hit.",
+    "skills": [
+      { "name": "Pound", "upgradesAt": 5, "category": "Melee", "cooldown": 5000, "effect": "Makes a continuous attack in front of you. When it lands, it can lower opposing Pokemon's Defense and Speed", "upgrades": "-" },
+      { "name": "Double Slap", "upgradesAt": 11, "category": "Melee", "cooldown": 5000, "effect": "Unleashes continuos damage in front of you. Damages and lowers your opponent's movement speed.", "upgrades": "Increasses the amount of attacks." },
+      { "name": "Dazzling Gleam", "upgradesAt": 11, "category": "Melee", "cooldown": 4500, "effect": "Unleases a powerful light in the front direction. Hits the opposing Pokemon twice.", "upgrades": "Lowers opponent's movement speed on first hit." },
+      { "name": "Defense Curl", "upgradesAt": 7, "category": "Hindrance", "cooldown": 8000, "effect": "Creates a shield around the player and damages opponents that hits. If you hit an obstacle, you will change direction and the cooldown for Pound, Double Slap or Dazzling Gleam will be removed.", "upgrades": "-" },
+      { "name": "Rollout", "upgradesAt": 13, "category": "Hindrance", "cooldown": 10000, "effect": "Creates a shield around the player and damages opponents that hits. If you hit an obstacle, you will change direction and the cooldown for Pound, Double Slap or Dazzling Gleam will be removed.", "upgrades": "????" },
+      { "name": "Sing", "upgradesAt": 13, "category": "Area", "cooldown": 10000, "effect": "Lowers opposing Pokemon movement speed within the viscinity. Makes opposing Pokemon sleepy after a while and lowers their Defense and Special Defense.", "upgrades": "?????" },
+      { "name": "Starlight Recital", "name2": "Star Recital", "upgradesAt": 99, "category": "Buff", "cooldown": 1000, "effect": "Provides protection to Wigglytuff and its nearby allies within a radius.", "upgrades": "-" }
+    ],
+    "changeLogs": [
+      { "version": "1.0", "changes": "Made Wgglytuff character sheet" },
+      { "version": "1.1", "changes": "Added Moves and Ability." },
+      { "version": "1.2", "changes": "Wigglytuff is back! Added Viability Stats, Unite Move Name, Category, and Description." },
+      { "version": "1.3", "changes": "Added Moves, Move Cooldown, Move Description, and Basic Attack Description based on the Japanese Network Test." }
+    ]
+  }
+  

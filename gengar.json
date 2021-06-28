@@ -1,0 +1,45 @@
+{
+  "name": "Gengar",
+  "image": "https://unite.pokemon.com/images/pokemon/gengar/roster/roster-gengar.png",
+  "difficulty": "Hard",
+  "role": "Speedster",
+  "evoChecked": true,
+  "evoLine": [
+    { "name": "Gastly", "level": 1, "image": "https://unite.pokemon.com/images/pokemon/gengar/stat/evolution-1-gastly.png" },
+    { "name": "Haunter", "level": 5, "image": "https://unite.pokemon.com/images/pokemon/gengar/stat/evolution-2-haunter.png" },
+    { "name": "Gengar", "level": 9, "image": "https://unite.pokemon.com/images/pokemon/gengar/stat/evolution-3-gengar.png" }
+  ],
+  "attackRange": "Melee",
+  "passiveSkill": "Levitate",
+  "specialText": "When the Pokemon is not in Offense, its movement speed is increased.",
+  "stats": {
+    "viability": {
+      "offense": 7,
+      "endurance": 4,
+      "mobility": 8,
+      "scoring": 6,
+      "support": 1
+    }
+  },
+  "basicAttack": "Becomes a boosted attack with every third attack, dealing increased damage to nearby opposing Pokemon when it hits.",
+  "skills": [
+    { "name": "Will-o-Wisp", "upgradesAt": 5, "category": "Ranged", "cooldown": 5000, "effect": "Shoots multiple sinister flames, dealing damage to opposing Pokemon and leaving them burned when it hits.", "upgrades": "-" },
+    { "name": "Shadow Ball", "upgradesAt": 11, "category": "Ranged", "cooldown": 4500, "effect": "Hurls a shadowy blob at the target, decreasing the movement speed and Sp. Def of opposing Pokemon for a short time when it hits.", "upgrades": "Increased damage dealt." },
+    { "name": "Sludge", "name2": "Sludge Bomb", "upgradesAt": 11, "category": "Area", "cooldown": 8000, "effect": "Hurls unsanitary sludge to the designated area, leaving opposing Pokemon poisoned when it hits.", "upgrades": "Increase the poison effect's duration." },
+    { "name": "Lick", "upgradesAt": 7, "category": "Area", "cooldown": 7000, "effect": "Attacks with the user's tongue and pulls opposing Pokemon toward the user.", "upgrades": "-" },
+    { "name": "Dream Eater", "upgradesAt": 13, "category": "Ranged", "cooldown": 7000, "effect": "Launches hypnotic waves, on hit with enemy Pokemon causes them to fall sleep and allows Gengar to use this move again to appear behind enemy Pokemon and attack. This attack restores HP and reduces the cooldown of a specific move. ", "upgrades": "Increases the amount of damage dealt and HP restored by this move." },
+    { "name": "Hex", "upgradesAt": 13, "category": "Dash", "cooldown": 7500, "effect": "Has the user disappear and then reappear at the designated location, dealing damage to the opposing Pokemon in the area of effect. If this hits an opposing Pokemon that is poisoned, it deals increased damage and its cooldown is reduced.", "upgrades": "Increased damage dealt." },
+    { "name": "Phantom Ambush", "upgradesAt": 99, "category": "Dash", "cooldown": 1000, "effect": "Gengar's Unite Move. Has the user jump to the designated area and allows them to start sneaking with increased movement speed. If used again, deals damage to opposing Pokemon in the area of effect and decreases their movement speed for a short time. Similar to Gengar's Burst Attack in Pokken Tournament.", "upgrades": "-" }
+  ],
+  "changeLogs": [
+    { "version": "1.0", "changes": "Made Gengar character sheet" },
+    { "version": "1.1", "changes": "Added Passive Skill name and effect. Updated Moves section." },
+    { "version": "1.2", "changes": "Added role." },
+    { "version": "1.3", "changes": "Added hyperlinks to each moves to for players to get a preview of the move's animation." },
+    { "version": "1.4", "changes": "Added Mugshot and Model. Added Viability Stats. Updated Character Sheet arrangement." },
+    { "version": "1.5", "changes": "Added Difficulty." },
+    { "version": "1.6", "changes": "Updated Role Name to reflect changes from 2021 Mar Canada Regional Beta Test." },
+    { "version": "1.7", "changes": "Updated Added Evolution Level Stages to reflect changes from the January 2021 Chinese Open Beta." },
+    { "version": "1.8", "changes": "Updated Difficulty Name, Move Names, Category, Evolution Level, and Move Descriptions, updated Ability description, and added Basic Attack to reflect changes from 2021 Mar Canada Regional Beta Test." }
+  ]
+}

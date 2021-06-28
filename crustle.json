@@ -1,0 +1,42 @@
+{
+  "name": "Crustle",
+  "image": "https://unite.pokemon.com/images/pokemon/crustle/roster/roster-crustle.png",
+  "difficulty": "Intermediate",
+  "role": "Novice",
+  "evoChecked": true,
+  "evoLine": [
+    { "name": "Dwebble", "level": 1, "image": "https://unite.pokemon.com/images/pokemon/crustle/stat/evolution-1-dweeble.png" },
+    { "name": "Crustle", "level": 4, "image": "https://unite.pokemon.com/images/pokemon/crustle/stat/evolution-2-crustle.png" }
+  ],
+  "attackRange": "Melee",
+  "passiveSkill": "Sturdy",
+  "specialText": "Every time the Pokemon loses a certain amount of HP, its Defense and Sp. Def are increased.",
+  "stats": {
+    "viability": {
+      "offense": 3,
+      "endurance": 8,
+      "mobility": 3,
+      "scoring": 4,
+      "support": 6
+    }
+  },
+  "basicAttack": "Becomes a boosted attack with every third attack. When this boosted attack hits, it deals damage to opposing Pokemon in the area of effect and decreases their movement speed for a short time.",
+  "skills": [
+    { "name": "Rock Slide", "upgradesAt": 4, "category": "Area", "cooldown": 6000, "effect": "Drops large rocks on the designated area. When this move hits, it deals damage to opposing Pokemon in the area of effect and leaves them unable to act for a short time.", "upgrades": "-" },    
+	{ "name": "Rock Tomb", "upgradesAt": 11, "category": "Area", "cooldown": 5000, "effect": "Splits open the ground toward the designated area, dealing damage to opposing Pokemon in the area of effect and creating a barricade of rock. If used again, gets rid of the barricade. Similar to Mobile Legends: Bang Bang's Grock's Guardian's Barrier.", "upgrades": "Decreases the movement speed of opposing Pokemon for a short time when this move hits." },
+	{ "name": "Shell Smash", "upgradesAt": 11, "category": "Buff", "cooldown": 7000, "effect": "Has the user smash their shell, converting a set percentage of Defense and Sp. Def into Attack and Sp. Atk and increasing the user's movement speed for a short time.", "upgrades": "Increases this move's conversion rate." },
+	{ "name": "Fury Cutter", "upgradesAt": 6, "category": "Melee", "cooldown": 3500, "effect": "Slashes opposing Pokemon with claws, dealing damage to them. Hitting the same opposing Pokemon multiple times in succession with this move increases the damage dealt.", "upgrades": "-" },
+	{ "name": "Stealth Rock", "upgradesAt": 13, "category": "Area", "cooldown": 8000, "effect": "Throws many small rocks. When the rock hits an opposing Pokemon, or when the rocks have flown their full distance, a zone of many levitating rocks is created (AOE), dealing slowly-increasing damage over time to opposing Pokemon in the area of effect.", "upgrades": "Increases the duration of this move's effects and decreases the movement speed of opposing Pokemon for a short time when this move hits." },
+	{ "name": "X-Scissor", "upgradesAt": 13, "category": "Melee", "cooldown": 8000, "effect": "Has the user dash forward with crossed claws, dealing damage to opposing Pokemon multiple times and shoving (knockback) them. Leaves opposing Pokemon unable to act (stun) if they hit an object when shoved.", "upgrades": "Reduce this move's cooldown." },
+	{ "name": "Rubble Rouser", "name2": "Crustle Unite Move", "upgradesAt": 99, "category": "Buff", "cooldown": 1000, "effect": "Crustle's Unite Move. First grants the user a shield before dealing damage over time to nearby opposing Pokemon and leaving them unable to act (stun). If the user receives damage while this move is in effect, the move deals additional hits to nearby opposing Pokemon.", "upgrades": "-" }
+  ],
+  "changeLogs": [
+    { "version": "1.0", "changes": "Made Crustle character sheet" },
+    { "version": "1.1", "changes": "Added Viability Stats and Role." },
+    { "version": "1.2", "changes": "Added Difficulty." },
+	{ "version": "1.3", "changes": "Added Moves." },
+	{ "version": "1.4", "changes": "Updated Role Name to reflect changes from 2021 Mar Canada Regional Beta Test." },
+	{ "version": "1.5", "changes": "Updated Difficulty Name, and added Basic Attack, Move Names, Category, Evolution Level, Ability description, and Move Descriptions to reflect changes from 2021 Mar Canada Regional Beta Test." },
+	{ "version": "1.6", "changes": "Added Unite Move Name to from the official website" }
+  ]
+}

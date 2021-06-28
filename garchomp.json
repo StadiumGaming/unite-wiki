@@ -1,0 +1,47 @@
+{
+  "name": "Garchomp",
+  "image": "https://unite.pokemon.com/images/pokemon/garchomp/roster/roster-garchomp.png",
+  "difficulty": "Intermediate",
+  "role": "All-Rounder",
+  "evoChecked": true,
+  "evoLine": [
+    { "name": "Gible", "level": 1, "image": "https://unite.pokemon.com/images/pokemon/garchomp/stat/evolution-1-gible.png" },
+    { "name": "Gabite", "level": 6, "image": "https://unite.pokemon.com/images/pokemon/garchomp/stat/evolution-2-gabite.png" },
+	  { "name": "Garchomp", "level": 10, "image": "https://unite.pokemon.com/images/pokemon/garchomp/stat/evolution-3-garchomp.png" }
+  ],
+  "attackRange": "Melee",
+  "passiveSkill": "Rough Skin",
+  "specialText": "When the Pokemon is struck by a melee attack, a portion of the damage received is reflected back at the attacker. Effect is similar to Blade Mail's (passive).",
+  "stats": {
+    "viability": {
+      "offense": 7,
+      "endurance": 7,
+      "mobility": 5,
+      "scoring": 5,
+      "support": 1
+    }
+  },
+  "basicAttack": "Becomes a boosted attack with every fifth attack, dealing increased damage and restoring the user's HP. Every time one of the user's basic attacks or moves hit an opposing Pokemon, the user's basic attack speed is increased. (Stack effect up to 5 times.)",
+  "skills": [
+	{ "name": "Sand Attack", "upgradesAt": 0, "category": "Debuff", "cooldown": 6000, "effect": "Hurls sand at opposing Pokemon, narrowing their field of vision and increasing the user's movement speed and basic attack speed when it hits.", "upgrades": "" },
+	{ "name": "Dig", "upgradesAt": 11, "category": "Dash", "cooldown": 8000, "effect": "Has the user move quickly underground and jump out when they come in contact with an opposing Pokemon, dealing damage to opposing Pokemon in the area of effect and throwing them. If this move is used inside Earthquake's area of effect, the ground will split open in the wake of the user, widening this move's area of effect.", "upgrades": "Increase the user's movement speed while this move is in effect." },
+	{ "name": "Dragon Rush", "upgradesAt": 13, "category": "Dash", "cooldown": 8000, "effect": "Has the user dive into the designated direction, shoving (knockback) opposing Pokemon.", "upgrades": "Decreases the movement speed of opposing Pokemon for a short time when they are shoved by this move the maximum distance." },
+	{ "name": "Bulldoze", "upgradesAt": 6, "category": "Area", "cooldown": 5000, "effect": "Has the user stomp down on the ground, dealing damage to opposing Pokemon in the area of effect.", "upgrades": "-" },
+	{ "name": "Earthquake", "upgradesAt": 13, "category": "Area", "cooldown": 7000, "effect": "Has the user jump high into the air and crash forcefully to the ground, dealing damage to opposing Pokemon in the area of effect.", "upgrades": "Decreases the movement speed of opposing Pokemon for a short time if they are in this move's area of effect." },
+	{ "name": "Dragon Claw", "upgradesAt": 11, "category": "Melee", "cooldown": 5000, "effect": "Has the user attack in two parts while dashing forward. The first deals damage to opposing Pokemon and throws them (knockback). The second deals increased damage and increases the user's basic attack speed.", "upgrades": "Increased damage dealt." },
+	{ "name": "Livid Outrage", "upgradesAt": 99, "category": "Melee", "cooldown": 1000, "effect": "Garchomp's Unite Move. Has the user unleash a powerful chain attack while dashing forward. The final attack throws (knock up) opposing Pokemon but also leaves the user unable to act (stun) for a short time.", "upgrades": "-" }
+  ],
+  "changeLogs": [
+    { "version": "1.0", "changes": "Made Garchomp character sheet" },
+    { "version": "1.1", "changes": "Added Passive Skill name and effect. Updated Moves section." },
+    { "version": "1.2", "changes": "Added role." },
+	{ "version": "1.3", "changes": "Updated UPGRADES AT column for Dig and Dragon Claw. Added hyperlinks to each moves to for players to get a preview of the move's animation." },
+	{ "version": "1.4", "changes": "Added Mugshot and Model. Added Viability Stats. Updated Character Sheet arrangement." },
+	{ "version": "1.5", "changes": "Added Difficulty." },
+	{ "version": "1.6", "changes": "Updated Role Name to reflect changes from 2021 Mar Canada Regional Beta Test." },
+	{ "version": "1.7", "changes": "Updated Added Evolution Level Stages to reflect changes from the January 2021 Chinese Open Beta." },
+	{ "version": "1.8", "changes": "Updated Role Name to reflect changes from 2021 Mar Canada Regional Beta Test." },
+	{ "version": "1.9", "changes": "Updated Difficulty Name, Move Names, Category, Evolution Level, and Move Descriptions, updated Ability description, and added Basic Attack to reflect changes from 2021 Mar Canada Regional Beta Test." },
+	{ "version": "1.10", "changes": "Swapped the Move Slot of Dig and Earthquake, Sand Attack and Bulldoze, updated Move Cooldowns to reflect the changes on the Japanese Network Test." }
+  ]
+}

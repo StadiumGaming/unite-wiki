@@ -1,0 +1,43 @@
+{
+  "name": "Snorlax",
+  "image": "https://unite.pokemon.com/images/pokemon/snorlax/roster/roster-snorlax.png",
+  "difficulty": "Novice",
+  "role": "Defender",
+  "evoChecked": true,
+  "evoLine": [
+    { "name": "Snorlax", "level": 0, "image": "https://poketouch.files.wordpress.com/2021/06/pokemon_unite_holowear_outfit_snorlax.png?w=640" }
+  ],
+  "attackRange": "Melee",
+  "passiveSkill": "Gluttony",
+  "specialText": "Increases the effects gained from eating Berries.",
+  "stats": {
+    "viability": {
+      "offense": 3,
+      "endurance": 10,
+      "mobility": 4,
+      "scoring": 3,
+      "support": 5
+    }
+  },
+  "basicAttack": "Becomes a boosted attack with every third attack. When this boosted attack hits, it deals damage to nearby opposing Pokemon and decreases their movement speed for a short time.",
+  "skills": [
+    { "name": "Tackle", "upgradesAt": 6, "category": "Dash", "cooldown": 6000, "effect": "Has the user charge forward belly first, dealing damage to opposing Pokemon in the area of effect and decreasing their movement speed for a short time.", "upgrades": "-" },
+    { "name": "Heavy Slam", "upgradesAt": 11, "category": "Dash", "cooldown": 7000, "effect": "Has the user slam their heavy body down, dealing damage to opposing Pokemon in the area of effect and thowing (knock up) them.", "upgrades": "Increased damage dealt." },
+    { "name": "Flail", "upgradesAt": 11, "category": "Hindrance", "cooldown": 6500, "effect": "Has the user flail about, increasing the user's basic attack damage the lower the user's HP is.", "upgrades": "Increases damage dealt by this move." },
+    { "name": "Rest", "upgradesAt": 8, "category": "Hindrance", "cooldown": 10000, "effect": "Has the user fall asleep on the spot and restores their HP. Blocks the movement of all Pokemon not on the user's team while this move is in effect.", "upgrades": "-" },
+    { "name": "Block", "upgradesAt": 13, "category": "Recovery", "cooldown": 11000, "effect": "Has the user spread their arms wide to create a wall and grants them a shield. Prevents Pokemon from passing through the wall and shoves (knockback) opposing Pokemon that run into it.", "upgrades": "Reduces the damage the user receives while this move is in effect." },
+    { "name": "Yawn", "upgradesAt": 13, "category": "Hindrance", "cooldown": 12000, "effect": "Has the user let loose a huge yawn that lulls opposing Pokemon into a sleepy haze, putting opposing Pokemon hit by this move to sleep (stun).", "upgrades":"Also decreases the movement speed of opposing Pokemon for a short time when this move hits." },
+    { "name": "Power Nap", "upgradesAt": 99, "category": "Buff", "cooldown": 1000, "effect": "Has the user fall asleep and begine to snore, dealing damage over time to opposing Pokemon in the area of effect while restoring the user's HP. Using certain moves while asleep allows the user to role over, dealing futher damage to opposing Pokemon in the area of effect.", "upgrades": "-" }
+  ],
+  "changeLogs": [
+    { "version": "1.0", "changes": "Made Snorlax character sheet" },
+    { "version": "1.1", "changes": "Added Passive Skill name and effect. Updated Moves section." },
+    { "version": "1.2", "changes": "Added role." },
+    { "version": "1.3", "changes": "Added hyperlinks to each moves to for players to get a preview of the move's animation." },
+    { "version": "1.4", "changes": "Added Mugshot and Model. Added Viability Stats. Updated Character Sheet arrangement." },
+    { "version": "1.5", "changes": "Updated Role Name to reflect changes from 2021 Mar Canada Regional Beta Test." },
+    { "version": "1.6", "changes": "Updated Difficulty Name, Move Names, Category, Evolution Level, and Move Descriptions, updated Ability description, and added Basic Attack to reflect changes from 2021 Mar Canada Regional Beta Test." },
+    { "version": "1.7", "changes": "Added Unite Move name to reflect changes from the official website." },
+    { "version": "1.8", "changes": "Added Unite Move Category name to reflect changes from the official website." }
+  ]
+}

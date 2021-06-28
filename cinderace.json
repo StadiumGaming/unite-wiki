@@ -1,0 +1,39 @@
+{
+  "name": "Cinderace",
+  "image": "https://unite.pokemon.com/images/pokemon/cinderace/roster/roster-cinderace.png",
+  "difficulty": "Novice",
+  "role": "Attacker",
+  "evoChecked": true,
+  "evoLine": [
+    { "name": "Scorbunny", "level": 1, "image": "https://unite.pokemon.com/images/pokemon/cinderace/stat/evolution-1-scorbunny.png" },
+    { "name": "Raboot", "level": 5, "image": "https://unite.pokemon.com/images/pokemon/cinderace/stat/evolution-2-raboot.png" },
+    { "name": "Cinderace", "level": 7, "image": "https://unite.pokemon.com/images/pokemon/cinderace/stat/evolution-3-cinderace.png" }
+  ],
+  "attackRange": "Ranged",
+  "passiveSkill": "Blaze",
+  "specialText": "When the Pokemon is at half HP or less, its critical-hit rate and attack speed are increased. When the Pokemon uses a move, its next basic attack becomes a boosted attack.",
+  "stats": {
+    "viability": {
+      "offense": 8,
+      "endurance": 3,
+      "mobility": 6,
+      "scoring": 5,
+      "support": 1
+    }
+  },
+  "basicAttack": "Becomes a boosted attack with every third attack, dealing increased damage when it hits.",
+  "skills": [
+    { "name": "Ember", "upgradesAt": 7, "category": "Sure Hit", "cooldown": 6000, "effect": "The user launches a small flame attack to a designated opponent that inflicts burn status. This attack will trigger additional damage for the next 3 times they do any attack.", "upgrades": "-" },
+    { "name": "Pyro Ball", "upgradesAt": 11, "category": "Ranged", "cooldown": 7000, "effect": "Launches a fire ball in a straight line and inflicts burn status. This attack will trigger additional damage for the next 3 times they do any attack.", "upgrades": "Basic attacks after this move hits reduce this move's colldown (up to three times)." },
+    { "name": "Blaze Kick", "upgradesAt": 11, "category": "Sure Hit", "cooldown": 8000, "effect": "Cinderace kicks at a designated area. At the end of the move, the user jumps back on initial position. On hit, the opponent will be knocked back and gets inflicted with burn status. This attack will trigger additional damage for the next 3 times they do any attack.", "upgrades": "Increases basic attack speed for a short time when this move hits." },
+    { "name": "Low Sweep", "upgradesAt": 8, "category": "Dash", "cooldown": 7500, "effect": "Attacks with a low sweep in the designated direction, dealing damage when it hits. Also decreases the movement speed of opposing Pokemon for a short time when they are hit by the user's next boosted attack.", "upgrades": "-" },
+    { "name": "Flame Charge", "upgradesAt": 13, "category": "Dash", "cooldown": 6000, "effect": "Has the user charge forward in the designated direction, dealing damage when it hits. Also increases the range and damage of the user's next basic attack.", "upgrades": "Increases basic attack speed for a short time when this move ends." },
+    { "name": "Feint", "upgradesAt": 13, "category": "Buff", "cooldown": 11000, "effect": "Increases the user's movement speed for a short time and makes them invincible. Inf used while the user is affected by hindrances, removes any hindrances affecting the user.", "upgrades": "The next 3 basic attacks will restore health." },
+    { "name": "Blazing Bicycle Kick", "name2": "Cinderace Unite Move", "upgradesAt": 99, "category": "Sure Hit", "cooldown": 1000, "effect": "Cinderace's Unite Move. Kicks a giant fireball toward the designated location, which then explodes, dealing damage to opposing Pokemon in the area of effect. This Unite Move increases the user's movement speed for a short time when it hits.", "upgrades": "-" }
+  ],
+  "changeLogs": [
+    { "version": "1.0", "changes": "Made Cinderace character sheet" },
+    { "version": "1.1", "changes": "Added Viability Stats and Role." },
+    { "version": "1.2", "changes": "Added Difficulty." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Alolan Ninetales",
+  "name2": "Ninetales",
+  "image": "https://unite.pokemon.com/images/pokemon/alolan-ninetales/roster/roster-alolan-ninetales.png",
+  "difficulty": "Intermediate",
+  "role": "Attacker",
+  "evoChecked": true,
+  "evoLine": [
+    { "name": "Vulpix", "level": 1, "image": "https://unite.pokemon.com/images/pokemon/alolan-ninetales/stat/evolution-1-alolan-vulpix.png" },
+    { "name": "Ninetales", "level": 4, "image": "https://unite.pokemon.com/images/pokemon/alolan-ninetales/stat/evolution-2-alolan-ninetales.png" }
+  ],
+  "attackRange": "Ranged",
+  "passiveSkill": "Snow Warning",
+  "specialText": "Causes snow to fall on an opposing Pokemon, dealing damage to them and decreasing their movement speed for a short time. Attacks sling snow, and hitting the same target with snow multiple times will freeze them for a short time.",
+  "stats": {
+    "viability": {
+      "offense": 8,
+      "endurance": 3,
+      "mobility": 3,
+      "scoring": 5,
+      "support": 6
+    }
+  },
+  "basicAttack": "Becomes a boosted attack with every third attack. When this boosted attack hits, it deals damage to nearby opposing Pokemon and decreases their movement speed for a short time.",
+  "skills": [
+    { "name": "Powder Snow", "upgradesAt": 4, "category": "Area", "cooldown": 7000, "effect": "Attacks with a chilly gust of podery snow, decreasing the movement speed of opposing Pokemon for a short time when it hits.", "upgrades": "-" },
+    { "name": "Avalanche", "upgradesAt": 11, "category": "Area", "cooldown": 7000, "effect": "Attacks with a gush of chilly ice toward the designated area. The ice forms a wall that cannot be passed through on land. After a short time, this wall melts and collapses, dealing damage to opposing Pokemon in the area of effect.", "upgrades": "Also decreases the movement speed of opposing Pokemon for a short time when this move hits." },
+    { "name": "Dazzling Gleam", "upgradesAt": 11, "category": "Hindrance", "cooldown": 7500, "effect": "Attacks with a powerful cone of blinding light, leaving opposing Pokemon unable to act (stun) when this move hits.", "upgrades": "Increases damage dealt and stun time." },
+    { "name": "Icy Wind", "upgradesAt": 6, "category": "Ranged", "cooldown": 8000, "effect": "Attacks with a gust of freezing air, decreasing the movement speed of opposing Pokemon fro a short time when it hits.", "upgrades": "-" },
+    { "name": "Blizzard", "upgradesAt": 13, "category": "Ranged", "cooldown": 11000, "effect": "Summons a howling blizzard in front of the user, decreasing the movement speed of opposing Pokemon for a short time and shoving (knockback) nearby Pokemon. When the blizzard hits an obstacle, it splits and spreads out to the left and right.", "upgrades": "Reduces the intervals between this move's damage-dealing ticks." },
+    { "name": "Aurora Veil", "upgradesAt": 13, "category": "Buff", "cooldown": 13000, "effect": "Creates an aurora around the user that reduces damage received by the user and ally Pokemon in the area of effect. Also increases the user's movement speed and makes all of their basic attacks boosted attacks while this move is in effect.", "upgrades": "Further reduces damage ally Pokemon receives." },
+    { "name": "Snow Globe", "upgradesAt": 99, "category": "Area", "cooldown": 1000, "effect": "Alolan Ninetales's Unite Move. Attacks with a chilly snow and ice, dealing damage to opposing Pokemon in the area of effect when it hits. Deals increased damage to opposing Pokemon that are frozen.", "upgrades": "-" }
+  ],
+  "changeLogs": [
+    { "version": "1.0", "changes": "Made Alolan Ninetails character sheet" },
+    { "version": "1.1", "changes": "Added Passive Skill name and effect. Updated Moves section" },
+    { "version": "1.2", "changes": "Fixed name from Alolan Ninetails to Alolan Ninetales. Added role." }
+  ]
+}

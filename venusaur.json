@@ -1,0 +1,44 @@
+{
+    "name": "Venusaur",
+    "image": "https://unite.pokemon.com/images/pokemon/venusaur/roster/roster-venusaur.png",
+    "difficulty": "Intermediate",
+    "role": "Attacker",
+    "evoChecked": true,
+    "evoLine": [
+      { "name": "Bulbasaur", "level": 1, "image": "https://unite.pokemon.com/images/pokemon/venusaur/stat/evolution-1-bulbasaur.png" },
+      { "name": "Ivysaur", "level": 5, "image": "https://unite.pokemon.com/images/pokemon/venusaur/stat/evolution-2-ivysaur.png" },
+      { "name": "Venusaur", "level": 9, "image": "https://unite.pokemon.com/images/pokemon/venusaur/stat/evolution-3-venusaur.png" }
+    ],
+    "attackRange": "Ranged",
+    "passiveSkill": "Overgrow",
+    "specialText": "When the Pokemon is at low HP, the damage it deals is increased.",
+    "stats": {
+      "viability": {
+        "offense": 9,
+        "endurance": 4,
+        "mobility": 4,
+        "scoring": 5,
+        "support": 2
+      }
+    },
+    "basicAttack": "Becomes a boosted attack with every third attack, dealing increased damage. This boosted attack also pulls opposing Pokemon inward between the user's vines.",
+    "skills": [
+      { "name": "Seed Bomb", "upgradesAt": 5, "category": "Ranged", "cooldown": 6000, "effect": "Hurls a large seed at the designated area, dealing damage to opposing Pokemon in the area of effect.", "upgrades": "-" },
+      { "name": "Sludge Bomb", "upgradesAt": 11, "category": "Ranged", "cooldown": 6000, "effect": "Hurls aunsanitary sludge to the designated area, dealing damage over time to opposing Pokemon in the area of effect and decreasing their movement speed and Sp. Def for a short time.", "upgrades": "Increased AOE radius." },
+      { "name": "Giga Drain", "upgradesAt": 13, "category": "Recovery", "cooldown": 7000, "effect": "Drains nutrients from opposing Pokemon (lifesteal) in the area of effect, dealing damage to opposing Pokemon and restoring the user's HP when it hits. Also reduces the damage the user receives for a short time.", "upgrades": "Increase lifesteal effect." },
+      { "name": "Razor Leaf", "upgradesAt": 7, "category": "Area", "cooldown": 9000, "effect": "Launches many sharp-edged leaves in a quick succession of attacks, dealing damage to opposing Pokemon in the area of effect.", "upgrades": "-" },
+      { "name": "Solar Beam", "upgradesAt": 13, "category": "Area", "cooldown": 11000, "effect": "Blasts a bundled beam of light, dealing damage to opposing Pokemon in the area of effect.", "upgrades": "Reduces move charge time and cooldown." },
+      { "name": "Petal Dance", "upgradesAt": 11, "category": "Area", "cooldown": 11000, "effect": "Scatters petals around the user, increasing movement speed for a short time and dealing damage over time to opposing Pokemon in the area of effect.", "upgrades": "Increased AOE radius." },
+      { "name": "Verdant Anger", "upgradesAt": 99, "category": "Area", "cooldown": 1000, "effect": "Launches a giant seed toward the designated area. The seed then splits apart, dealing damage to opposing Pokemon in the area of effect and decreasing their movement speed for a short time.", "upgrades": "-" }
+    ],
+    "changeLogs": [
+      { "version": "1.0", "changes": "Made Venusaur character sheet" },
+      { "version": "1.1", "changes": "Added Passive Skill name and effect. Updated Moves section." },
+      { "version": "1.2", "changes": "Wigglytuff is back! Added Viability Stats, Unite Move Name, Category, and Description." },
+      { "version": "1.3", "changes": "Added hyperlinks to each moves to for players to get a preview of the move's animation." },
+      { "version": "1.4", "changes": "Updated Role Name to reflect changes from 2021 Mar Canada Regional Beta Test." },
+      { "version": "1.5", "changes": "Updated Difficulty Name, Move Names, Category, and Move Descriptions, updated Ability description, and added Basic Attack to reflect changes from 2021 Mar Canada Regional Beta Test." },
+      { "version": "1.6", "changes": "Updated Move Cooldown and switched Giga Drain and Petal Dance move slots to reflect changes from Japanese Network Test." }
+    ]
+  }
+  

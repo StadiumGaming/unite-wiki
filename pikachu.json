@@ -1,0 +1,37 @@
+{
+  "name": "Pikachu",
+  "image": "https://unite.pokemon.com/images/pokemon/pikachu/roster/roster-pikachu.png",
+  "difficulty": "Novice",
+  "role": "Attacker",
+  "evoChecked": true,
+  "evoLine": [
+    { "name": "Pikachu", "level": 0, "image": "https://unite.pokemon.com/images/pokemon/pikachu/stat/stat-pikachu.png" }
+  ],
+  "attackRange": "Ranged",
+  "passiveSkill": "Static",
+  "specialText": "Decreases the movement speed of all opponents near the Pokemon for a short time when the Pokemon receives damage. This Ability goes on a cooldown after it's triggered.",
+  "stats": {
+    "viability": {
+      "offense": 9,
+      "endurance": 3,
+      "mobility": 5,
+      "scoring": 4,
+      "support": 3
+    }
+  },
+  "basicAttack": "Becomes a boosted attack with every third attack, dealing increased damage. This boosted attack also paralyzes (slow) opposing Pokemon for a short time when it hits.",
+  "skills": [
+    { "name": "Thunder Shock", "upgradesAt": 4, "category": "Sure Hit", "cooldown": 5000, "effect": "Releases electricity, dealing damage to opposing Pokemon in the area of effect. Also paralyzes (slow) opposing Pokemon for a short time.", "upgrades": "-" },
+    { "name": "Electro Ball", "upgradesAt": 11, "category": "Sure Hit", "cooldown": 5000, "effect": "Hurls an electric orb, dealing damage to opposing Pokemon in the area of effect. Also paralyzes (slow) opposing Pokemon for a short time.", "upgrades": "Increases damage dealt by this move." },
+    { "name": "Thunder", "upgradesAt": 11, "category": "Area", "cooldown": 8000, "effect": "Drops wicked thunderbolts, dealing damage to opposing Pokemon in the area of effect.", "upgrades": "Increases the number of times this move attacks." },
+    { "name": "Electro Web", "upgradesAt": 6, "category": "Hindrance", "cooldown": 9000, "effect": "Attacks and captures opposing Pokemon using an electric net, leaving them unable to move. (roots target)", "upgrades": "-" },
+    { "name": "Volt Tackle", "upgradesAt": 13, "category": "Hindrance", "cooldown": 10000, "effect": "Has the user electrify itself and charge ahead, throwing opposing Pokemon. (knocks target up)", "upgrades": "Reduced cooldown." },
+    { "name": "Thunderbolt", "upgradesAt": 13, "category": "Hindrance", "cooldown": 8000, "effect": "Attacks with a strong electric blast, dealing damage to opposing Pokemon in the area of effect and leaving them unable to act. (stuns hit opponents)", "upgrades": "Increased damage dealt." },
+    { "name": "Thunderstorm", "upgradesAt": 99, "category": "Area", "cooldown": 1000, "effect": "Pikachu's Unite Move. Attacks opposing Pokemon near the user with tremendous bolts of lightning. Similar to Feathered Air Strike, but on a smaller radius.", "upgrades": "-" }
+  ],
+  "changeLogs": [
+    { "version": "1.0", "changes": "Made Pikachu character sheet" },
+    { "version": "1.1", "changes": "" },
+    { "version": "1.2", "changes": "" }
+  ]
+}

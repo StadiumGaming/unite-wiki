@@ -1,0 +1,37 @@
+{
+  "name": "Cramorant",
+  "image": "https://unite.pokemon.com/images/pokemon/cramorant/roster/roster-cramorant.png",
+  "difficulty": "Expert",
+  "role": "Attacker",
+  "evoChecked": true,
+  "evoLine": [
+    { "name": "Cramorant", "level": 0, "image": "https://unite.pokemon.com/images/pokemon/cramorant/stat/stat-cramorant.png" }
+  ],
+  "attackRange": "Ranged",
+  "passiveSkill": "Gulp Missle",
+  "specialText": "When the Pokemon uses a move, it catches some form of prey in its mouth. Afterward, when the Pokemon receives damage, it spits the prey out as a counterattack at an opposing Pokemon. The type of prey and effect differ based on the Pokemon's HP. (Arrokuda prey is guaranteed at 51% to 100% HP, Pikachu at 50% or below.)",
+  "stats": {
+    "viability": {
+      "offense": 8,
+      "endurance": 6,
+      "mobility": 6,
+      "scoring": 3,
+      "support": 2
+    }
+  },
+  "basicAttack": "Becomes a boosted attack with every third attack. This boosted attack spits Arrokuda or other Pokemon at the opposing Pokemon and deals damage to opposing Pokemon near the target when it hits.",
+  "skills": [
+    { "name": "Whirlpool", "upgradesAt": 6, "category": "Area", "cooldown": 5000, "effect": "Creates a whirlpool that deals damage to opposing Pokemon in the area of effect. This move's area of effect slowly shrinks, but the damage dealt slowly increases. The user can also catch Arrokuda or other prey by entering the whirlpool themselves.", "upgrades": "-" },
+    { "name": "Surf", "upgradesAt": 13, "category": "Hindrance", "cooldown": 8000, "effect": "Attacks with a wave that deals damage to opposing Pokemon. Once the wave has traveled its full distance, it returns the way it came, dealing damage to opposing Pokemon once again and pulling them back(knockback) with the wave. The user can also catch Arrokuda or other prey by entering the wave themselves.", "upgrades": "Places the move lock condition on opposing Pokemon hit by the waves." },
+    { "name": "Dive", "upgradesAt": 13, "category": "Dash", "cooldown": 1500, "effect": "Changes the designated area into a puddle and has the user dive to that area, dealing damage to opposing Pokemon and shoving them when it hits. The user also catches Arrokuda or other wild Pokemon as they emerge from the puddle. This move has 3 uses.", "upgrades": "Changes the designated area into a puddle and has the user dive to that area, dealing damage to opposing Pokemon and shoving them when it hits. The user also catches Arrokuda or other wild Pokemon as they emerge from the puddle. This move has 3 uses." },
+    { "name": "Feather Dance", "upgradesAt": 4, "category": "Hindrance", "cooldown": 8000, "effect": "Decreases the Attack and movement speed of opposing Pokemon for a short time.", "upgrades": "-" },
+    { "name": "Hurricane", "upgradesAt": 11, "category": "Ranged", "cooldown": 9000, "effect": "Creates a fierce wind, throwing (knock up) Pokemon that get caught in it and dealing damage to them when they fall to the ground.", "upgrades": "Also decreases the Defense and Sp. Def of opposing Pokemon." },
+    { "name": "Air Slash", "upgradesAt": 11, "category": "Ranged", "cooldown": 5000, "effect": "Has the user shoot out many blades of air while jumping back to create distance.", "upgrades": "Reduces this move's cooldown every time a blade of air hits an opposing Pokemon." },
+    { "name": "Gatling Gulp Missle", "name2": "Cramorant Unite Move", "upgradesAt": 99, "category": "Ranged", "cooldown": 1000, "effect": "Cramorant's Unite Move. Creates a puddle at the user's current location. The user continuously uses their mouth to grab Arrokuda from the puddle and spits them out to attack the nearest opposing Pokmeon. The user cannot move or use other moves while this move is in effect.", "upgrades": "-" }
+  ],
+  "changeLogs": [
+    { "version": "1.0", "changes": "Made Cramorant character sheet" },
+    { "version": "1.1", "changes": "Added Viability Stats and Role." },
+    { "version": "1.2", "changes": "Added Difficulty." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Charizard",
+  "image": "https://unite.pokemon.com/images/pokemon/charizard/roster/roster-charizard.png",
+  "difficulty": "Novice",
+  "role": "All-Rounder",
+  "evoChecked": true,
+  "evoLine": [
+    { "name": "Charmander", "level": 1, "image": "https://unite.pokemon.com/images/pokemon/charizard/stat/evolution-1-charmander.png" },
+    { "name": "Charmeleon", "level": 4, "image": "https://unite.pokemon.com/images/pokemon/charizard/stat/evolution-2-charmeleon.png" },
+    { "name": "Charizard", "level": 9, "image": "https://unite.pokemon.com/images/pokemon/charizard/stat/evolution-3-charizard.png" }
+  ],
+  "attackRange": "Melee",
+  "passiveSkill": "Blaze",
+  "specialText": "When the Pokemon is at half HP or less, its critical-hit rate is increased.",
+  "stats": {
+    "viability": {
+      "offense": 7,
+      "endurance": 6,
+      "mobility": 5,
+      "scoring": 6,
+      "support": 1
+    }
+  },
+  "basicAttack": "Inflicts continuous damage. After evolving, the distance of basic attack increases. Increase damage when opponent is burned.",
+  "skills": [
+    { "name": "Flame Burst", "upgradesAt": 5, "category": "Ranged", "cooldown": 6000, "effect": "Attacks with a bursting flame, leaving opposing Pokemon burned.", "upgrades": "-" },
+    { "name": "Flamethrower", "upgradesAt": 11, "category": "Ranged", "cooldown": 7000, "effect": "Attacks with an intense blast of fire, leaving opposing Pokemon burned.", "upgrades": "Increased damage." },
+    { "name": "Fire Punch", "upgradesAt": 11, "category": "Dash", "cooldown": 6000, "effect": "Launches foward using a fist of flames to attack. Deals additional damage to burned opponents.", "upgrades": "Basic attacks reduce Fire Punch cooldown." },
+    { "name": "Fire Spin", "upgradesAt": 7, "category": "Area", "cooldown": 10000, "effect": "Encircles opposing Pokemon in the area of effect with a vortex of fire, also decreasing their movement speed for a short time.", "upgrades": "-" },
+    { "name": "Fire Blast", "upgradesAt": 13, "category": "Area", "cooldown": 11000, "effect": "Attacks with an intense blase of all-consuming fire. While the flames continue to burn on the ground, opposing Pokemon in the area of effect receive damage over time. This also decreases the movement speed of opposing Pokemon for a short time.", "upgrades": "Increased damage dealt." },
+    { "name": "Flare Blitz", "upgradesAt": 13, "category": "Dash", "cooldown": 10000, "effect": "Charges forward cloaked in fire, throwing opposing Pokemon. This also grants the user a shield.", "upgrades": "Decrease movement speed of opposing Pokemon for a short time when hit by this move." },
+    { "name": "Seismic Slam", "upgradesAt": 99, "category": "Sure Hit", "cooldown": 1000, "effect": "Charizard's Unite Move. Charizard flies in the air and attacks opponents from there, gets invulnerability, and then does a seismic toss to target. Works similarly with Marvel Super War's Iron Man's third skill, Flight Thrusters.", "upgrades": "-" }
+  ],
+  "changeLogs": [
+    { "version": "1.0", "changes": "Made Charizard character sheet" },
+    { "version": "1.1", "changes": "Added Passive Skill name and effect. Updated Moves section." },
+    { "version": "1.2", "changes": "Added hyperlinks to each moves to for players to get a preview of the move's animation." }
+  ]
+}

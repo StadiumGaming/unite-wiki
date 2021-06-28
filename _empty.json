@@ -1,0 +1,32 @@
+{
+  "name": "",
+  "image": "",
+  "difficulty": "",
+  "role": "",
+  "evoLine": [
+    { "name": "", "level": 1 }
+  ],
+  "attackRange": "",
+  "passiveSkill": "",
+  "specialText": "",
+  "stats": {
+    "viability": {
+      "offense": 8,
+      "endurance": 3,
+      "mobility": 6,
+      "scoring": 5,
+      "support": 1
+    }
+  },
+  "basicAttack": "",
+  "skills": [
+    { "name": "", "upgradesAt": 1, "category": "", "cooldown": 6000, "effect": "", "upgrades": "-" },
+    { "name": "", "upgradesAt": 1, "category": "", "cooldown": 7000, "effect": "", "upgrades": "" },
+    { "name": "", "upgradesAt": 1, "category": "", "cooldown": 8000, "effect": "", "upgrades": "" }
+  ],
+  "changeLogs": [
+    { "version": "1.0", "changes": "Made Cinderace character sheet" },
+    { "version": "1.1", "changes": "" },
+    { "version": "1.2", "changes": "" }
+  ]
+}
