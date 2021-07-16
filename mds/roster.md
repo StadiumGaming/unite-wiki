@@ -14,7 +14,7 @@
 [![Lucario](https://unite.pokemon.com/images/pokemon/lucario/roster/roster-lucario.png)](/unite-stadium/character/lucario) {.roster-character} 
 [![Machamp](https://unite.pokemon.com/images/pokemon/machamp/roster/roster-machamp.png)](/unite-stadium/character/machamp) {.roster-character} 
 [![Mr. Mime](https://unite.pokemon.com/images/pokemon/mr-mime/roster/roster-mr-mime.png)](/unite-stadium/character/mr_mime) {.roster-character}
-[![Ninetales](https://unite.pokemon.com/images/pokemon/alolan-ninetales/roster/roster-alolan-ninetales.png)](/unite-stadium/character/ninetales_alola) {.roster-character} 
+[![Ninetales](https://unite.pokemon.com/images/pokemon/alolan-ninetales/roster/roster-alolan-ninetales.png)](/unite-stadium/character/ninetales) {.roster-character} 
 [![Pikachu](https://unite.pokemon.com/images/pokemon/pikachu/roster/roster-pikachu.png)](/unite-stadium/character/pikachu) {.roster-character} 
 [![Slowbro](https://unite.pokemon.com/images/pokemon/slowbro/roster/roster-slowbro.png)](/unite-stadium/character/slowbro) {.roster-character} 
 [![Snorlax](https://unite.pokemon.com/images/pokemon/snorlax/roster/roster-snorlax.png)](/unite-stadium/character/snorlax) {.roster-character} 
