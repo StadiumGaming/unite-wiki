@@ -1,1 +1,42 @@
-
+{
+    "name": "Zeraroa",
+    "image": "https://unite.pokemon.com/images/pokemon/zeraora/roster/roster-zeraora.png",
+    "difficulty": "Expert",
+    "role": "Speedster",
+    "evoChecked": true,
+    "evoLine": [
+      { "name": "Zeraroa", "level": 0, "image": "https://unite.pokemon.com/images/pokemon/zeraora/stat/stat-zeraora.png" }
+    ],
+    "attackRange": "Melee",
+    "passiveSkill": "Volt Abosrb",
+    "specialText": "Increase its attack based on damage taken. The lower its health, the higher its attack.
+    "stats": {
+      "viability": {
+        "offense": 7,
+        "endurance": 3,
+        "mobility": 8,
+        "scoring": 6,
+        "support": 1
+      }
+    },
+    "basicAttack": "",
+    "skills": [
+      { "name": "Agility", "upgradesAt": 6, "category": "Status", "cooldown": 6000, "effect": "Zeroara quickly moves in a direction. Afterwards, significantly increases attack speed.", "upgrades": "-" },
+      { "name": "Volt Switch", "upgradesAt": -, "category": "-", "cooldown": 6000, "effect": "Zeroara quickly moves in the target direction and causes damage to enemy Pokemon it passes through. This move can be used again to return to the pre-move position. Zeroara’s attack speed is significantly increased for a short while.", "upgrades": "Increased damage and attack speed buff" },
+      { "name": "Spark", "upgradesAt": -, "category": "Melee", "cooldown": 4500, "effect": "Unleases a powerful light in the front direction. Hits the opposing Pokemon twice.", "upgrades": "Makes next basic attack to have Lifesteal effect." },
+      { "name": "Slash", "upgradesAt": 8, "category": "-", "cooldown": 8500, "effect": "Zeroara suddenly rushes and attacks with sharp claws, causing knockup on hit.", "upgrades": "-" },
+      { "name": "Discharge", "upgradesAt": -, "category": "Hindrance", "cooldown": 10000, "effect": "Zeroara attacks by discharging an electric current. While this move is active, if there are enemy Pokemon near Zeroara, Zeroara gains a shield. When this move ends, Zeroara drags enemy Pokemon with status afflictions to it, dealing additional damage and stunning them.", "upgrades": "Also reduces hit opposing Pokemon's movement speed." },
+      { "name": "Wild Charge", "upgradesAt": -, "category": "Area", "cooldown": 10000, "effect": "Zeroara sprints in the target direction. Performs rapid continuous attacks on hit. If Zeroara hit enemy Pokemon with Volt Switch, Spark, or buffed basic attacks beforehand, the number of basic attacks is increased (?).", "upgrades": "Each attack deals will gain Cleave effect." },
+      { "name": "Plasma Gale", "upgradesAt": 99, "category": "-", "cooldown": 1000, "effect": "Zeroara releases a powerful electric current to attack the targeted Pokemon, causing damage and knockup. Afterwards, creates a plasma area that strengthens Zeroara’s basic attacks while it is in the area.", "upgrades": "-" }
+    ],
+    "changeLogs": [
+      { "version": "1.0", "changes": "Made Zeraora character sheet" },
+      { "version": "1.1", "changes": "Added Passive Skill name and effect. Updated Moves section." },
+      { "version": "1.2", "changes": "Added role." },
+      { "version": "1.3", "changes": "Added hyperlinks to each moves to for players to get a preview of the move's animation." },
+      { "version": "1.4", "changes": "Added Mugshot and Model. Added Viability Stats. Updated Character Sheet arrangement." },
+      { "version": "1.5", "changes": "Added Difficulty." },
+      { "version": "1.6", "changes": "Overhauled the Pokemon's tab to look even more user-friendly." }
+    ]
+  }
+  
