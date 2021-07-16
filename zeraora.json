@@ -9,7 +9,7 @@
     ],
     "attackRange": "Melee",
     "passiveSkill": "Volt Abosrb",
-    "specialText": "Increase its attack based on damage taken. The lower its health, the higher its attack."
+    "specialText": "Increase its attack based on damage taken. The lower its health, the higher its attack.",
     "stats": {
       "viability": {
         "offense": 7,
