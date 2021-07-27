@@ -1,0 +1,45 @@
+{
+  "name": "Gardevior",
+  "image": "https://unite.pokemon.com/images/pokemon/gardevoir/roster/roster-gardevoir.png",
+  "difficulty": "Intermediate",
+  "role": "Attacker",
+  "evoChecked": true,
+  "evoLine": [
+    { "name": "Ralts", "level": 1, "image": "https://unite.pokemon.com/images/pokemon/gardevoir/stat/evolution-1-ralts.png" },
+    { "name": "Kirlia", "level": 4, "image": "https://unite.pokemon.com/images/pokemon/gardevoir/stat/evolution-2-kirlia.png" },
+    { "name": "Gardevior", "level": 9, "image": "https://unite.pokemon.com/images/pokemon/gardevoir/stat/evolution-3-gardevoir.png" }
+  ],
+  "attackRange": "Ranged",
+  "passiveSkill": "Synchronize",
+  "specialText": "When an opponent inflicts decreased movement speed or a damage-over-time condition on the Pokemon, the same is inflicted on that opponent. This Ability goes on cooldown after it's triggered.",
+  "stats": {
+    "viability": {
+      "offense": 9,
+      "endurance": 3,
+      "mobility": 3,
+      "scoring": 6,
+      "support": 3
+    }
+  },
+  "basicAttack": "Becomes a boosted attack with every third attack. When this boosted attack hits, it deals damage to opposing Pokemon in the area of effect and decreases their SP. Def for a short time.",
+  "skills": [
+    { "name": "Confusion", "upgradesAt": 6, "category": "Ranged", "cooldown": 4500, "effect": "Attacks straight in the designated direction.", "upgrades": "-" },
+    { "name": "Psychic", "upgradesAt": 13, "category": "Ranged", "cooldown": 7000, "effect": "After hitting an opposing Pokemon or traveling its maximum distance, creates a circle that deals damage to opposing Pokemon in the area of effect, decreasing their movement speed for a short time", "upgrades": "Reduce cooldown." },
+    { "name": "Moonblast", "upgradesAt": 13, "category": "Ranged", "cooldown": 6000, "effect": "Has the user attack while moving back to create distance. When this move's blast hits, it deals damage to opposing Pokemon in a cone and leaves the opposing Pokemon closest to the user unable to act for a short time", "upgrades": "Reduce cooldown." },
+    { "name": "Teleport", "upgradesAt": 4, "category": "Dash", "cooldown": 10000, "effect": "Has the user warp to the designated area, increasing the damage dealt by one basic attack after warping.", "upgrades": "-" },
+    { "name": "Psyshock", "upgradesAt": 11, "category": "Area", "cooldown": 11000, "effect": "Attacks three times in front of a user (AOE).", "upgrades": "Increase the damage this move deals each time one of its attacks hits." },
+    { "name": "Future Sight", "upgradesAt": 11, "category": "Area", "cooldown": 10000, "effect": "Sets a delayed explosion. When the explosion hits an opposing Pokemon, it shortens this move's cooldown.", "upgrades": "On hit, removes cooldown." },
+    { "name": "Fairy Singularity", "upgradesAt": 99, "category": "Sure Hit", "cooldown": 1000, "effect": "gGardevoir's Unite Move. Warps space in the designated area, drawing in opposing Pokemon. Shoves (knockback) and deals damage to opposing Pokemon the instant the warped space disappears.", "upgrades": "-" }
+  ],
+  "changeLogs": [
+    { "version": "1.0", "changes": "Made Gardevoir character sheet" },
+    { "version": "1.1", "changes": "Added Passive Skill name and effect. Updated Moves section." },
+    { "version": "1.2", "changes": "Added role." },
+	{ "version": "1.3", "changes": "Added hyperlinks to each moves to for players to get a preview of the move's animation." },
+	{ "version": "1.4", "changes": "Added Mugshot and Model. Added Viability Stats. Updated Character Sheet arrangement." },
+	{ "version": "1.5", "changes": "Updated Evolution Line Levels to reflect changes from the January 2021 Chinese Open Beta." }, 
+	{ "version": "1.6", "changes": "Updated Role Name to reflect changes from 2021 Mar Canada Regional Beta Test." },
+	{ "version": "1.7", "changes": "Updated Difficulty Name, Move Names, Category, Evolution Level, and Move Descriptions, updated Ability description, and added Basic Attack to reflect changes from 2021 Mar Canada Regional Beta Test.  " },
+	{ "version": "2.0", "changes": "Overhauled the Pokemon's tab to look even more user-friendly." }
+  ]
+}
