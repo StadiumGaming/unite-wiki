@@ -9,6 +9,7 @@
 [![Crustle](https://unite.pokemon.com/images/pokemon/crustle/roster/roster-crustle.png)](/unite-stadium/character/crustle) {.roster-character} 
 [![Eldegoss](https://unite.pokemon.com/images/pokemon/eldegoss/roster/roster-eldegoss.png)](/unite-stadium/character/eldegoss) {.roster-character} 
 [![Garchomp](https://unite.pokemon.com/images/pokemon/garchomp/roster/roster-garchomp.png)](/unite-stadium/character/garchomp) {.roster-character} 
+[![Gardevoir](https://unite.pokemon.com/images/pokemon/gardevoir/roster/roster-gardevoir.png)](/unite-stadium/character/gardevoir) {.roster-character} 
 [![Gengar](https://unite.pokemon.com/images/pokemon/gengar/roster/roster-gengar.png)](/unite-stadium/character/gengar) {.roster-character} 
 [![Greninja](https://unite.pokemon.com/images/pokemon/greninja/roster/roster-greninja.png)](/unite-stadium/character/greninja) {.roster-character} 
 [![Lucario](https://unite.pokemon.com/images/pokemon/lucario/roster/roster-lucario.png)](/unite-stadium/character/lucario) {.roster-character} 
