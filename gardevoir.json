@@ -29,7 +29,7 @@
     { "name": "Teleport", "upgradesAt": 4, "category": "Dash", "cooldown": 10000, "effect": "Has the user warp to the designated area, increasing the damage dealt by one basic attack after warping.", "upgrades": "-" },
     { "name": "Psyshock", "upgradesAt": 11, "category": "Area", "cooldown": 11000, "effect": "Attacks three times in front of a user (AOE).", "upgrades": "Increase the damage this move deals each time one of its attacks hits." },
     { "name": "Future Sight", "upgradesAt": 11, "category": "Area", "cooldown": 10000, "effect": "Sets a delayed explosion. When the explosion hits an opposing Pokemon, it shortens this move's cooldown.", "upgrades": "On hit, removes cooldown." },
-    { "name": "Fairy Singularity", "upgradesAt": 99, "category": "Sure Hit", "cooldown": 1000, "effect": "gGardevoir's Unite Move. Warps space in the designated area, drawing in opposing Pokemon. Shoves (knockback) and deals damage to opposing Pokemon the instant the warped space disappears.", "upgrades": "-" }
+    { "name": "Fairy Singularity", "upgradesAt": 99, "category": "Sure Hit", "cooldown": 1000, "effect": "Gardevoir's Unite Move. Warps space in the designated area, drawing in opposing Pokemon. Shoves (knockback) and deals damage to opposing Pokemon the instant the warped space disappears.", "upgrades": "-" }
   ],
   "changeLogs": [
     { "version": "1.0", "changes": "Made Gardevoir character sheet" },
