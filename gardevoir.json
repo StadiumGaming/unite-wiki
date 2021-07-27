@@ -1,5 +1,5 @@
 {
-  "name": "Gardevior",
+  "name": "Gardevoir",
   "image": "https://unite.pokemon.com/images/pokemon/gardevoir/roster/roster-gardevoir.png",
   "difficulty": "Intermediate",
   "role": "Attacker",
@@ -7,7 +7,7 @@
   "evoLine": [
     { "name": "Ralts", "level": 1, "image": "https://unite.pokemon.com/images/pokemon/gardevoir/stat/evolution-1-ralts.png" },
     { "name": "Kirlia", "level": 4, "image": "https://unite.pokemon.com/images/pokemon/gardevoir/stat/evolution-2-kirlia.png" },
-    { "name": "Gardevior", "level": 9, "image": "https://unite.pokemon.com/images/pokemon/gardevoir/stat/evolution-3-gardevoir.png" }
+    { "name": "Gardevoir", "level": 9, "image": "https://unite.pokemon.com/images/pokemon/gardevoir/stat/evolution-3-gardevoir.png" }
   ],
   "attackRange": "Ranged",
   "passiveSkill": "Synchronize",
